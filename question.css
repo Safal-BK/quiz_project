@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+
+body {
+padding: 0px;
+margin: 0px;
+background-image: url("images/background.jpg");
+}
+
+.top {
+    max-width: 100%;
+    overflow: hidden;
+    background-color: #8f8f8b;
+    display:flex ;
+}
+.next{
+    float: right;
+    margin-right: 0px;
+}
+.timer {
+    height: 100px;
+    width: 100px;
+    background-color: #bbb;
+    border-radius: 50%;
+    border: 5px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+.next {
+   width: 150px;
+    height: 50px;
+    margin-right: auto;
+
+}
+
