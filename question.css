@@ -11,10 +11,13 @@ background-image: url("images/background.jpg");
     overflow: hidden;
     background-color: #8f8f8b;
     display:flex ;
+    align-items: center;
+    justify-content: space-between;
 }
 .next{
-    float: right;
-    margin-right: 0px;
+    width: 150px;
+    height: 50px;
+   
 }
 .timer {
     height: 100px;
@@ -26,11 +29,5 @@ background-image: url("images/background.jpg");
     align-items: center;
     justify-content: center;
     margin: 5px;
-}
-.next {
-   width: 150px;
-    height: 50px;
-    margin-right: auto;
-
 }
 
